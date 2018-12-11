@@ -1,40 +1,20 @@
 body {
-  padding: 0;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
-}
-.wrap {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh 70vh calc(20vh - 5px * 2);
-  grid-template-areas:
-    "s s s s s s h h h h h h"
-    "m m m m m m m m m m m m"
-    "f f f f f f f f f f f f";
-}
-.header {
-  background-color: hsl(300, 80%, 30%);
-  grid-area: h;
-}
-.sidebar {
-  background-color: hsl(300, 80%, 40%);
-  grid-area: s;
-}
-.main {
-  background-color: hsl(300, 80%, 50%);
-  grid-area: m;
-}
-.footer {
-  background-color: hsl(200, 80%, 30%);
-  grid-area: f;
+  color: #333333;
+
 }
 
-@media screen and (min-width: 980px) {
-  // 関係ない文字列でスペースを表現する
-    .wrap {
-      grid-template-areas:
-        "h h h h h h h h h h h h"
-        ". s m m m m m m m m m ."
-        "f f f f f f f f f f f f";
-    }
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  h1 {
+    font-size: 28px;
+    font-weight: normal;
   }
+}
