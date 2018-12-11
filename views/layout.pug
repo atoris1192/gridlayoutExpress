@@ -5,8 +5,12 @@ html(lang="ja")
     meta(charset='utf-8')
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="description", content=metas.keyword)
+    meta(name="author", content="")
 
     title #{metas.title}
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    //- index側にblock link があると　以下は効果が消える
+    block link 
+      link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
