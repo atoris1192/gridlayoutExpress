@@ -6,7 +6,9 @@ block vars
 block content
   h1= metas.title
   p Welcome to #{metas.title}
-  .container
-    - for (let i=1; i<10; i++)
-      div(class=`item-${i}`) #{i}
+  .wrap
+    .header
+    .sidebar
+    .main
+    .footer
 
