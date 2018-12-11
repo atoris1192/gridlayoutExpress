@@ -1,5 +1,7 @@
 extends layout
-
+block vars
+  - const metas = {}
+  - metas.title = "CSS Grid"
 block content
-  h1= title
-  p Welcome to #{title}
+  h1= metas.title
+  p Welcome to #{metas.title}
