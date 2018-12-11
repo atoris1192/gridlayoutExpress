@@ -13,4 +13,9 @@ header h1 {
   font-size: 28px;
   font-weight: normal; }
 
+#open_menu {
+  float: right;
+  font-size: 24px;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
