@@ -41,6 +41,9 @@ header {
       padding: 10px 20px;
       li {
         line-height: 2;
+        display: inline-block;
+        width: 60px;
+        text-align: center;
         a {
           text-decoration: none;
           color: inherit;
@@ -150,6 +153,15 @@ footer {
     position: static;
     background-color: transparent;
     color: #333333;
+    ul {
+      padding: 0;
+      float: right;
+      li {
+        display: inline-block;
+        width: 60px;
+        text-align: center;
+      }
+    }
   }
   // body {
   //   background-color: lime;

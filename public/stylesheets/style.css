@@ -38,7 +38,10 @@ header #menu {
     margin: 0;
     padding: 10px 20px; }
     header #menu ul li {
-      line-height: 2; }
+      line-height: 2;
+      display: inline-block;
+      width: 60px;
+      text-align: center; }
       header #menu ul li a {
         text-decoration: none;
         color: inherit; }
@@ -110,6 +113,13 @@ footer {
     display: block;
     position: static;
     background-color: transparent;
-    color: #333333; } }
+    color: #333333; }
+    header #menu ul {
+      padding: 0;
+      float: right; }
+      header #menu ul li {
+        display: inline-block;
+        width: 60px;
+        text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
