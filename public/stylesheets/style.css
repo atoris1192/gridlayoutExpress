@@ -44,4 +44,20 @@ section h1 {
     display: block;
     margin-bottom: 60px; }
 
+.how-to-use .iframe-wrapper {
+  padding-bottom: 56.25%;
+  height: 0;
+  position: relative; }
+  .how-to-use .iframe-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+footer {
+  text-align: center;
+  padding: 60px 0;
+  color: #cccccc; }
+
 /*# sourceMappingURL=style.css.map */
