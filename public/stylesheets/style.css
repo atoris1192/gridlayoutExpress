@@ -14,14 +14,19 @@ body {
   width: 90%;
   margin: 0 auto; }
 
-header h1 {
-  font-size: 28px;
-  font-weight: normal; }
-
-header #open_menu {
-  float: right;
-  font-size: 24px;
-  cursor: pointer; }
+header .container.header {
+  display: grid;
+  grid-template: 80px / 1fr 1fr; }
+  header .container.header h1 {
+    justify-self: start;
+    align-items: center;
+    font-size: 28px;
+    font-weight: normal; }
+  header .container.header #open_menu {
+    justify-self: end;
+    align-self: center;
+    font-size: 24px;
+    cursor: pointer; }
 
 header #menu {
   position: absolute;
