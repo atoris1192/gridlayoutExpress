@@ -23,6 +23,26 @@ header #open_menu {
   font-size: 24px;
   cursor: pointer; }
 
+header #menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--white);
+  display: none; }
+  header #menu.shown {
+    display: block; }
+  header #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px; }
+    header #menu ul li {
+      line-height: 2; }
+      header #menu ul li a {
+        text-decoration: none;
+        color: inherit; }
+
 section h1 {
   text-align: center;
   font-weight: normal;
