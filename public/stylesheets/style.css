@@ -18,22 +18,30 @@ header h1 {
   font-size: 28px;
   font-weight: normal; }
 
-#open_menu {
+header #open_menu {
   float: right;
   font-size: 24px;
   cursor: pointer; }
 
+section h1 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0 0 60px; }
+
 .features {
   padding: 60px 0;
   background-color: var(--white); }
-  .features h1 {
-    text-align: center;
-    font-weight: normal;
-    margin: 0 0 60px;
-    color: red; }
   .features .feature img {
     width: 100%; }
   .features .feature:not(:last-child) {
+    margin-bottom: 60px; }
+
+.news {
+  padding: 60px 0; }
+  .news img {
+    width: 100%; }
+  .news .news-item {
+    display: block;
     margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */
