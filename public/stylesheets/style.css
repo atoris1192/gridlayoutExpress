@@ -86,14 +86,18 @@ footer {
     .media .feature img {
       width: 50%; }
     .media .feature p {
-      width: 45%;
-      color: red; }
+      width: 45%; }
     .media .feature:nth-of-type(odd) p {
       float: right;
       padding-left: 5%; }
     .media .feature:nth-of-type(even) p {
       float: left;
       padding-right: 5%; }
+  .news .flex {
+    display: flex;
+    justify-content: space-between; }
+  .news .news-item {
+    width: 30%; }
   body {
     background-color: skyblue; } }
 
