@@ -5,8 +5,17 @@ block vars
   - metas.keyword = "iine"
 block content
   header
-  .container
-    i#open_menu.fas.fa-bars
-    h1 My App
+    .container
+      i#open_menu.fas.fa-bars
+      h1 My App
+  section.features
+    .container
+      h1 Features
+      - for (let i=1; i<4; i++)
+        section.feature
+          img(src=`images/feature${i}.png`)
+          p hello. hello. hello. hello. hello. hello. hello. hello. hello. hello. hello. 
+
+
     
 
