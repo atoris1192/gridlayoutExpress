@@ -100,3 +100,36 @@ footer {
   color: #cccccc;
 
 }
+
+@media (min-width: 570px) {
+  .media {
+    overflow: hidden;
+    .feature {
+      img {
+        width: 50%;
+      }
+      p {
+        width: 45%;
+        color: red;
+      }
+      &:nth-of-type(odd) p {
+        float: right;
+        padding-left: 5%;
+      }
+      &:nth-of-type(even) p {
+        float: left;
+        padding-right: 5%;
+      }
+    }
+
+  }
+  body {
+    background-color: skyblue;
+  }
+}
+
+@media (min-width: 912px) {
+  body {
+    background-color: lime;
+  }
+}

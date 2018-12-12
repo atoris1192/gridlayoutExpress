@@ -80,4 +80,25 @@ footer {
   padding: 60px 0;
   color: #cccccc; }
 
+@media (min-width: 570px) {
+  .media {
+    overflow: hidden; }
+    .media .feature img {
+      width: 50%; }
+    .media .feature p {
+      width: 45%;
+      color: red; }
+    .media .feature:nth-of-type(odd) p {
+      float: right;
+      padding-left: 5%; }
+    .media .feature:nth-of-type(even) p {
+      float: left;
+      padding-right: 5%; }
+  body {
+    background-color: skyblue; } }
+
+@media (min-width: 912px) {
+  body {
+    background-color: lime; } }
+
 /*# sourceMappingURL=style.css.map */
