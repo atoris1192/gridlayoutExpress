@@ -97,12 +97,19 @@ footer {
     display: flex;
     justify-content: space-between; }
   .news .news-item {
-    width: 30%; }
-  body {
-    background-color: skyblue; } }
+    width: 30%; } }
 
 @media (min-width: 912px) {
-  body {
-    background-color: lime; } }
+  .container {
+    width: 820px; }
+  #open_menu {
+    display: none; }
+  #close_menu {
+    display: none; }
+  header #menu {
+    display: block;
+    position: static;
+    background-color: transparent;
+    color: #333333; } }
 
 /*# sourceMappingURL=style.css.map */

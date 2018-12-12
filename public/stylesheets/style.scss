@@ -130,13 +130,28 @@ footer {
       width: 30%;
     }
   }
-  body {
-    background-color: skyblue;
-  }
+  // body {
+  //   background-color: skyblue;
+  // }
 }
 
 @media (min-width: 912px) {
-  body {
-    background-color: lime;
+  .container {
+    width: 820px;
   }
+  #open_menu {
+    display: none;
+  }
+  #close_menu {
+    display: none;
+  }
+  header #menu {
+    display: block;
+    position: static;
+    background-color: transparent;
+    color: #333333;
+  }
+  // body {
+  //   background-color: lime;
+  // }
 }
