@@ -28,7 +28,7 @@ header .container.header {
     font-size: 24px;
     cursor: pointer; }
 
-header #menu {
+header nav#menu {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,20 +36,29 @@ header #menu {
   background-color: rgba(0, 0, 0, 0.8);
   color: var(--white);
   display: none; }
-  header #menu.shown {
-    display: block; }
-  header #menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px 20px; }
-    header #menu ul li {
-      line-height: 2;
-      display: inline-block;
-      width: 60px;
-      text-align: center; }
-      header #menu ul li a {
-        text-decoration: none;
-        color: inherit; }
+  header nav#menu.shown {
+    display: grid;
+    grid-template: 80px / 5fr 1fr; }
+    header nav#menu.shown ul {
+      justify-self: end;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 30px; }
+      header nav#menu.shown ul li {
+        line-height: 2;
+        display: inline-block;
+        width: 60px;
+        text-align: center; }
+        header nav#menu.shown ul li a {
+          text-decoration: none;
+          padding: 30px;
+          color: inherit; }
+    header nav#menu.shown i#close_menu {
+      justify-self: end;
+      align-items: center;
+      padding: 30px;
+      color: red; }
 
 section h1 {
   text-align: center;
@@ -114,17 +123,34 @@ footer {
     display: none; }
   #close_menu {
     display: none; }
-  header #menu {
-    display: block;
-    position: static;
-    background-color: transparent;
-    color: #333333; }
-    header #menu ul {
-      padding: 0;
-      float: right; }
-      header #menu ul li {
+  header nav#menu {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+    display: grid;
+    grid-template: 80px / 1fr; }
+    header nav#menu ul {
+      justify-self: center;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 30px; }
+      header nav#menu ul li {
+        line-height: 2;
         display: inline-block;
         width: 60px;
-        text-align: center; } }
+        text-align: center; }
+        header nav#menu ul li a {
+          text-decoration: none;
+          padding: 30px;
+          color: inherit; }
+    header nav#menu i#close_menu {
+      justify-self: end;
+      align-items: center;
+      padding: 30px;
+      color: red; } }
 
 /*# sourceMappingURL=style.css.map */
