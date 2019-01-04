@@ -1,0 +1,3 @@
+## スマホサイトを作ろう
+* レスポンシブデザイン
+* yarn start or node-dev ./bin/www
